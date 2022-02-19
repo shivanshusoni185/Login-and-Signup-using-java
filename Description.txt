@@ -1,0 +1,12 @@
+Step1:-Create a Dyanamic Project in Eclipse ide with Tomcat9
+Step2:-Download mysql database.
+Step3:-Connect a mysql database Connector which is releated to your mysql database.
+
+//Database
+create database databasename;
+use databasename;
+create table tablename(id primay key auto_increment , name  varchar(50), email varchar(50) , pass
+varchar(50) , mobile varchar(50));
+
+//Connector links
+https://jar-download.com/artifacts/mysql/mysql-connector-java/8.0.11/source-code
